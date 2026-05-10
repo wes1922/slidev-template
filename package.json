@@ -10,8 +10,15 @@
     "@slidev/cli": "^52.15.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "@slidev/theme-apple-basic": "latest",
+    "@slidev/theme-bricks": "latest",
+    "slidev-theme-light-icons": "latest",
+    "slidev-theme-unicorn": "latest",
     "slidev-theme-academic": "latest",
-    "slidev-theme-apple-basic": "latest",
+    "slidev-theme-frankfurt": "latest",
+    "@ktym4a/slidev-theme-ktym4a": "latest",
+    "slidev-theme-field-manual": "latest",
+    "slidev-theme-touying": "latest",
     "vue": "^3.5.0"
   }
 }

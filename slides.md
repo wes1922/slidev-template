@@ -1,9 +1,16 @@
 ---
-# 主題選擇（擇一，把下面這行改成你要的）：
-# theme: default        → 簡潔白底
-# theme: seriph         → 深色專業風
-# theme: academic       → 學術報告風
-# theme: apple-basic    → 蘋果簡約風
+# 主題選擇（擇一，把 theme: 那行改成你要的名稱）：
+# theme: default               → 簡潔白底
+# theme: seriph                → 深色專業風
+# theme: apple-basic           → 蘋果簡約風
+# theme: bricks                → 磚塊幾何風
+# theme: light-icons           → 圖示輕量風
+# theme: unicorn               → 粉色活潑風
+# theme: academic              → 學術報告風
+# theme: frankfurt             → 學術深色風
+# theme: "@ktym4a/slidev-theme-ktym4a" → 日系簡約風
+# theme: field-manual          → 手冊說明風
+# theme: touying               → 進階動畫風
 theme: default
 title: 專題簡報標題
 info: |
