@@ -8,32 +8,40 @@
 
 點擊右上角的 **「Use this template」→「Create a new repository」**
 
-- 填入 repo 名稱（例如：`my-thesis-slides`）
-- 選擇 **Public**（GitHub Pages 免費版需要是公開 repo）
+- 填入 repo 名稱（例如：`my-slides`）
+- 選擇 **Public**
 - 點擊「Create repository」
 
-### 第二步：開啟 GitHub Pages
+---
 
-在你的 repo 中：
+### 第二步：編輯簡報內容
 
-1. 點擊上方的 **Settings**
-2. 左側選單找到 **Pages**
-3. Source 選擇 **GitHub Actions**
-4. 儲存
+進入你的新 repo，點擊 `slides.md`，再點右上角的 **鉛筆圖示 ✏️**
 
-### 第三步：編輯簡報內容
+把內容改成你的專題資料，完成後點 **「Commit changes」**
 
-找到 `slides.md` 檔案，點擊右上角的鉛筆（✏️）直接在網頁上編輯：
+---
 
-- 修改標題、姓名、內容
-- 每個 `---` 分隔線代表一張新的投影片
-- 編輯完後按 **Commit changes**
+### 第三步：等待自動部署（約 2 分鐘）
 
-### 第四步：等待部署
+點上方的 **Actions** 頁籤，等到出現綠色勾勾 ✅ 表示完成。
 
-推送後約 **1～2 分鐘**，GitHub Actions 會自動部署。
+---
 
-完成後可在 **Settings → Pages** 看到你的簡報網址，格式為：
+### 第四步：開啟 GitHub Pages
+
+Actions 完成後：
+
+1. 點 **Settings → Pages**
+2. Source 選 **Deploy from a branch**
+3. Branch 選 **gh-pages**，資料夾選 **/ (root)**
+4. 點 **Save**
+
+---
+
+### 第五步：查看你的簡報
+
+約 1 分鐘後，簡報網址為：
 
 ```
 https://你的帳號.github.io/你的repo名稱/
@@ -41,14 +49,13 @@ https://你的帳號.github.io/你的repo名稱/
 
 ---
 
-## 投影片語法參考
+## 投影片語法
+
+每個 `---` 代表一張新投影片：
 
 ```markdown
 ---
-# 這是一張投影片的開始（用 --- 分隔）
----
-
-# 標題
+# 這是標題
 
 - 列點一
 - 列點二
@@ -58,4 +65,4 @@ https://你的帳號.github.io/你的repo名稱/
 # 下一張投影片
 ```
 
-更多語法請參考：[Slidev 官方文件](https://sli.dev)
+更多語法：[Slidev 官方文件](https://sli.dev)
