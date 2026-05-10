@@ -1,4 +1,9 @@
 ---
+# 主題選擇（擇一，把下面這行改成你要的）：
+# theme: default        → 簡潔白底
+# theme: seriph         → 深色專業風
+# theme: academic       → 學術報告風
+# theme: apple-basic    → 蘋果簡約風
 theme: default
 title: 專題簡報標題
 info: |
