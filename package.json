@@ -1,0 +1,14 @@
+{
+  "name": "slidev-template",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md --base /$GITHUB_REPOSITORY_NAME/",
+    "export": "slidev export slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.15.1",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.5.0"
+  }
+}
