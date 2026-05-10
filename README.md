@@ -58,6 +58,8 @@ https://你的帳號.github.io/你的repo名稱/
 
 ```
 回到setting 左側的page 點選右上方的visit 就可以看到發布的網頁
+真的搞不定可以去這邊做網頁https://stackblitz.com/github/slidevjs/new?file=slides.md
+主題可以選這些https://sli.dev/resources/theme-gallery
 ```
 
 
